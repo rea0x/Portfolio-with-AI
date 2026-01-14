@@ -1,4 +1,5 @@
 # rea0x - Professional Portfolio
+# FULL MADE WITH AI WITHIN 3:52 MINUTES
 
 > Modern, responsive, and animated portfolio website built with vanilla HTML, CSS, and JavaScript.
 
@@ -297,3 +298,4 @@ For issues or questions:
 ---
 
 **Made with ❤️ by rea0x**
+
