@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="rea0x - Full Stack Developer Portfolio | React, Node.js, Python">
+    <meta name="theme-color" content="#0a0e27">
+    
+    <title>Michael (rea0x) - Full Stack Developer | Tools & Websites</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/navbar.css">
+    <link rel="stylesheet" href="src/css/buttons.css">
+    <link rel="stylesheet" href="src/css/animations.css">
+    <link rel="stylesheet" href="src/css/components.css">
+    <link rel="stylesheet" href="src/css/hero.css">
+    <link rel="stylesheet" href="src/css/sections.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="#" class="logo">
+                    <span class="logo-text">rea0x</span>
+                    <span class="logo-dot"></span>
+                </a>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#portfolio" class="nav-link active">Portfolio</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-socials">
+                    <a href="https://github.com/rea0x" class="social-link" title="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/kub1xfnr" class="social-link" title="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7"/>
+                        </svg>
+                    </a>
+                </div>
+                
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="portfolio" class="hero" data-parallax="0.5">
+            <canvas class="particle-canvas"></canvas>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge animate-fadeInUp">
+                        <span class="badge-dot"></span>
+                        Welcome to my digital realm
+                    </div>
+                    
+                    <h1 class="hero-title animate-fadeInUp">
+                        <span class="title-word">Full</span>
+                        <span class="title-word">Stack</span>
+                        <span class="title-word">Developer</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle animate-fadeInUp">
+                        Passionate about building Discord bots, automation tools & scalable web applications
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item animate-fadeInUp" style="animation-delay: 0.1s">
+                            <span class="stat-value">5+</span>
+                            <span class="stat-label">Years</span>
+                        </div>
+                        <div class="stat-item animate-fadeInUp" style="animation-delay: 0.2s">
+                            <span class="stat-value">50+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item animate-fadeInUp" style="animation-delay: 0.3s">
+                            <span class="stat-value">100K+</span>
+                            <span class="stat-label">Hours</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-cta animate-fadeInUp" style="animation-delay: 0.4s">
+                        <a href="#contact" class="btn btn-primary">Get Started</a>
+                        <a href="#projects" class="btn btn-outline">View Work</a>
+                    </div>
+                </div>
+                
+                <div class="scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about" class="section section-about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Building the future, one line of code at a time</p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/>
+                            </svg>
+                        </div>
+                        <h3>Discord Bots & Tools</h3>
+                        <p>Specialized in creating powerful Discord bots, automation tools, and custom utilities using Python, JavaScript & C#</p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3>Full Stack Development</h3>
+                        <p>JavaScript, Python, C++, C#, PHP, HTML - Building complete web applications from frontend to backend</p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <ellipse cx="12" cy="12" rx="10" ry="10"/><path d="M9 3.6A8.97 8.97 0 0115 2.1"/>
+                            </svg>
+                        </div>
+                        <h3>Innovation & Automation</h3>
+                        <p>Creating innovative solutions and automation tools that solve real-world problems and streamline workflows</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects" class="section section-projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">My best work from GitHub</p>
+                </div>
+                
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be loaded here -->
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section class="section section-skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">Languages and tools I work with</p>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="tech-badges">
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">C++</span>
+                            <span class="tech-badge">C#</span>
+                            <span class="tech-badge">PHP</span>
+                            <span class="tech-badge">HTML</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Discord & Bot Development</h3>
+                        <div class="tech-badges">
+                            <span class="tech-badge">discord.py</span>
+                            <span class="tech-badge">discord.js</span>
+                            <span class="tech-badge">Discord API</span>
+                            <span class="tech-badge">Bot Architecture</span>
+                            <span class="tech-badge">Automation</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Web Technologies</h3>
+                        <div class="tech-badges">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">Express</span>
+                            <span class="tech-badge">MongoDB</span>
+                            <span class="tech-badge">PostgreSQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Platforms</h3>
+                        <div class="tech-badges">
+                            <span class="tech-badge">Git</span>
+                            <span class="tech-badge">Docker</span>
+                            <span class="tech-badge">VS Code</span>
+                            <span class="tech-badge">Linux</span>
+                            <span class="tech-badge">API Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="section section-contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="section-subtitle">Have a project idea? Reach out!</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3>Email</h3>
+                        <a href="mailto:info@rea0x.com" class="contact-link">info@rea0x.com</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>Website</h3>
+                        <a href="https://rea0x.com" class="contact-link" target="_blank">rea0x.com</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/rea0x" class="contact-link" target="_blank">github.com/rea0x</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>Support My Work</h3>
+                        <a href="https://paypal.me/Mmichiii777" class="contact-link" target="_blank">PayPal • LTC • BTC</a>
+                    </div>
+                </div>
+                
+                <div class="crypto-section">
+                    <h3>Support with Crypto</h3>
+                    <div class="crypto-grid">
+                        <div class="crypto-card">
+                            <h4>Bitcoin (BTC)</h4>
+                            <code class="crypto-address">bc1q3k6y365jrh40adrjg2hrgzz6l9e5zl5adw7k3s</code>
+                            <button class="btn btn-small" onclick="copyToClipboard('bc1q3k6y365jrh40adrjg2hrgzz6l9e5zl5adw7k3s')">Copy</button>
+                        </div>
+                        <div class="crypto-card">
+                            <h4>Litecoin (LTC)</h4>
+                            <code class="crypto-address">ltc1qr7qxrv79g0r8sxgc2g6z7ufxzdvhzx26mpdaju</code>
+                            <button class="btn btn-small" onclick="copyToClipboard('ltc1qr7qxrv79g0r8sxgc2g6z7ufxzdvhzx26mpdaju')">Copy</button>
+                        </div>
+                        <div class="crypto-card">
+                            <h4>PayPal Email</h4>
+                            <code class="crypto-address">michaeldomke73@gmail.com</code>
+                            <button class="btn btn-small" onclick="copyToClipboard('michaeldomke73@gmail.com')">Copy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Michael (rea0x). All rights reserved.</p>
+                <p>Built with passion and <span class="heart">❤️</span> | Discord Bots | Automation Tools | Full Stack Development</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="src/js/cursor.js"></script>
+    <script src="src/js/navigation.js"></script>
+    <script src="src/js/scroll.js"></script>
+    <script src="src/js/app.js"></script>
+</body>
+</html>

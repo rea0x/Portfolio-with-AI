@@ -1,0 +1,29 @@
+{
+  "name": "rea0x-portfolio",
+  "version": "2.0.0",
+  "description": "Professional portfolio of rea0x - Full Stack Developer",
+  "main": "index.html",
+  "scripts": {
+    "serve": "python -m http.server 8000",
+    "serve:dev": "python -m http.server 8001",
+    "build": "echo 'Ready to deploy'",
+    "deploy": "echo 'Deploy to your hosting service'"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "full-stack",
+    "react",
+    "node.js",
+    "python"
+  ],
+  "author": "rea0x",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rea0x/portfolio.git"
+  },
+  "homepage": "https://rea0x.com",
+  "devDependencies": {},
+  "dependencies": {}
+}

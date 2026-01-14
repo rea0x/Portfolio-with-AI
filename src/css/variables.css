@@ -1,0 +1,114 @@
+/* ===== CSS VARIABLES & GLOBAL THEME ===== */
+:root {
+    /* Colors - Neon Cyberpunk */
+    --primary: #00ff88;
+    --primary-dark: #00cc6d;
+    --primary-light: #33ffaa;
+    
+    --secondary: #00d4ff;
+    --secondary-dark: #00a8cc;
+    --secondary-light: #33e6ff;
+    
+    --accent: #ff006e;
+    --accent-dark: #cc0058;
+    --accent-light: #ff3385;
+    
+    /* Background */
+    --dark: #0a0e27;
+    --darker: #050a1f;
+    --darkest: #020408;
+    
+    /* Text */
+    --light: #e0e0e0;
+    --lighter: #ffffff;
+    --muted: #a0a0a0;
+    --muted-dark: #707070;
+    
+    /* UI Elements */
+    --border: rgba(0, 255, 136, 0.2);
+    --border-hover: rgba(0, 255, 136, 0.5);
+    --bg-translucent: rgba(10, 14, 39, 0.7);
+    --bg-glass: rgba(10, 14, 39, 0.5);
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.5);
+    --shadow-xl: 0 24px 64px rgba(0, 0, 0, 0.6);
+    
+    /* Glows */
+    --glow-primary: 0 0 25px rgba(0, 255, 136, 0.5);
+    --glow-primary-intense: 0 0 40px rgba(0, 255, 136, 0.8);
+    --glow-secondary: 0 0 25px rgba(0, 212, 255, 0.5);
+    --glow-secondary-intense: 0 0 40px rgba(0, 212, 255, 0.8);
+    --glow-accent: 0 0 25px rgba(255, 0, 110, 0.5);
+    --glow-accent-intense: 0 0 40px rgba(255, 0, 110, 0.8);
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    --spacing-3xl: 4rem;
+    
+    /* Border Radius */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+    --radius-full: 9999px;
+    
+    /* Font Sizes */
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --text-6xl: 3.75rem;
+    
+    /* Font Weights */
+    --weight-light: 300;
+    --weight-normal: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+    --weight-extrabold: 900;
+    
+    /* Z-Index */
+    --z-cursor: 99999;
+    --z-cursor-follower: 99998;
+    --z-modal: 10000;
+    --z-dropdown: 1000;
+    --z-sticky: 100;
+    --z-base: 1;
+    
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-base: 300ms ease;
+    --transition-slow: 500ms ease;
+    --transition-slowest: 800ms ease;
+    
+    /* Backdrop Filter */
+    --blur-sm: blur(4px);
+    --blur-md: blur(12px);
+    --blur-lg: blur(24px);
+}
+
+/* Dark mode (default) */
+@media (prefers-color-scheme: light) {
+    :root {
+        --light: #1a1a1a;
+        --lighter: #000000;
+        --muted: #606060;
+        --muted-dark: #909090;
+        --dark: #f5f5f5;
+        --darker: #ffffff;
+        --darkest: #fafafa;
+    }
+}
